@@ -1,0 +1,19 @@
+.nav ul {
+    list-style-type: none;
+    display: flex;
+    /* gap: .8rem; */
+}
+
+.nav ul li {
+    font-size: .8rem;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    gap: .3rem;
+    padding: .5rem 1rem;
+    border-radius: 24px;
+}
+
+.nav ul .active {
+    background: #01F0D0 0% 0% no-repeat padding-box;
+}

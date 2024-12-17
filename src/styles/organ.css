@@ -1,0 +1,45 @@
+.organ_status {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5rem;
+}
+
+.organ_status .organ {
+    width: 100%;
+    border-radius: 14px;
+    padding: 1rem;
+}
+
+.light_blue {
+    background: #E0F3FA;
+}
+
+.light_pink {
+    background: #FFE6E9;
+}
+
+.lightest_pink {
+    background-color: #FFE6F1;
+}
+
+.organ .info_title {
+    font-size: .9rem;
+}
+
+.organ .value {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.organ .small {
+    font-size: .7rem;
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    gap: .4rem;
+}
+
+.organ img {
+    width: 5rem;
+    margin-bottom: 1rem;
+}

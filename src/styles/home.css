@@ -1,0 +1,29 @@
+.homepage {
+    padding: .7rem .8rem .7rem .8rem;
+}
+
+.sections {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.patients {
+    /* border: 1px solid; */
+    width: 25%;
+    height: 90vh;
+}
+
+.diagnostics {
+    /* border: 1px solid; */
+    width: 50%;
+    height: 90vh;
+}
+
+.profile {
+    /* border: 1px solid; */
+    width: 25%;
+    height: 90vh;
+}

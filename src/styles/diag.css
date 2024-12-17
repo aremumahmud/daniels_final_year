@@ -1,0 +1,85 @@
+.diagnostics_wrapper {
+    background-color: #fff;
+    border-radius: 14px;
+    /* height: 100%; */
+    padding: .7rem .9rem .7rem .9rem;
+}
+
+.diagnostics_wrapper .title {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.diagnostics_wrapper .analytics_bar {
+    background-color: #F4F0FE;
+    /* width: 100%; */
+    height: fit-content;
+    font-size: .8rem;
+    display: flex;
+    padding: .7rem .9rem .7rem .9rem;
+    border-radius: 14px;
+    gap: 2rem;
+}
+
+.diagnostics_wrapper .analytics_bar .charts {
+    width: 70%;
+    /* border: 1px solid; */
+}
+
+.diagnostics_wrapper .analytics_bar .analysis {
+    width: 30%;
+    /* border: 1px solid; */
+}
+
+.diagnostics_wrapper .analytics_bar .charts .info {
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid; */
+}
+
+.diagnostics_wrapper .analytics_bar .charts .info .info_title {
+    font-weight: bold;
+    font-size: 1rem;
+    /* border: 1px solid; */
+}
+
+.diagnostics_wrapper .analytics_bar .analysis .item {
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: .3em;
+}
+
+.diagnostics_wrapper .analytics_bar .analysis .item .ball {
+    width: .7rem;
+    height: .7rem;
+    background-color: #000;
+    border-radius: 50%;
+}
+
+.purple {
+    background-color: purple !important;
+}
+
+.pink {
+    background-color: pink !important;
+}
+
+.diagnostics_wrapper .analytics_bar .analysis .item .item_head {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    font-weight: bold;
+}
+
+.diagnostics_wrapper .analytics_bar .analysis .item .value {
+    font-weight: bold;
+    font-size: 2rem;
+    color: #1a1b1c;
+}
+
+.diagnostics_wrapper .analytics_bar .analysis .item .label {
+    display: flex;
+    align-items: center;
+    gap: .3rem;
+}

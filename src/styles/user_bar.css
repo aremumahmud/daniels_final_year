@@ -1,0 +1,22 @@
+.user_bar {
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+    font-size: .8rem;
+}
+
+.user_bar .line {
+    height: 2rem;
+    border: 1px solid #cccccc6e;
+    /* background-color: ; */
+}
+
+.user_bar .info {
+    display: flex;
+    align-items: center;
+    gap: .4rem;
+}
+
+.user_bar .info .title {
+    font-weight: bold;
+}
