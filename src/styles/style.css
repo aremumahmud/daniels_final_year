@@ -1,0 +1,12 @@
+.my-box {
+    @apply bg-white p-4 rounded-lg
+}
+.my-bg {
+    background: #01F0D0;
+}
+.my-color {
+    color: #01F0D0;
+}
+.my_chart {
+    height: 70%;
+}
