@@ -9,12 +9,11 @@ import {
   FaScissors,
   FaUserDoctor,
 } from "react-icons/fa6";
-import RadarChart from "../components/RadarChart";
 import Section1 from "../components/Section1";
 import Section2 from "../components/Section2";
 import ReceptionHeader from "../components/ReceptionHeader";
-import OrganStatus from "../components/OrganStatus";
 import ChartRadar from "../components/RadarChart";
+import MeasuredChartLine from "../components/ChartLine";
 
 function Receptionist() {
   return (
@@ -50,7 +49,8 @@ function Receptionist() {
             <div className="my-box">
               <BoxTitle title="Satifaction rate" />
               <Num icon={<FaFaceSmile />} num="92%" rate="+0.3%" />
-              <div className="bg-green-100 p-2 rounded-lg">
+              <MeasuredChartLine />
+              <div className="bg-green-100 p-2 rounded-lg mt-2">
                 <h3 className="font-bold">Your patient satisfaction is 92%</h3>
                 <p className="text-sm">
                   The satisfaction rate has increased, reflectiing patient are
